@@ -7,7 +7,7 @@
 1. **Clone the repo**  
    ```bash
    git clone https://github.com/<your-github-username>/ch.en.u4cse22029.git
-   cd <YOUR_ROLL_NO>
+   cd ch.en.u4cse22029
 ````
 
 2. **Install dependencies**
