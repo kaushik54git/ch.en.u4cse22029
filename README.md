@@ -152,20 +152,3 @@ Adjust in `src/server.js` if needed.
 * See screenshots in `Q2-stock-aggregator/screenshots/`
 
 ---
-
-## Best Practices & Notes
-
-* **Commits:** Frequent, at logical milestones.
-* **Code Quality:**
-
-  * Meaningful names, modular structure.
-  * Comments for clarity.
-  * No hard-coded business logic.
-* **Error Handling:**
-
-  * Timeouts >500 ms are skipped.
-  * Invalid IDs → `400 Bad Request`.
-* **Performance:**
-
-  * In-memory windowing with queue data structure.
-  * Caching reused data within the request cycle.
