@@ -1,0 +1,17 @@
+{
+  "name": "affordmed-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+  "start:avg": "node average-calculator/index.js",
+  "start:stocks": "node stock-aggregator/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "express": "^5.1.0"
+  }
+}
